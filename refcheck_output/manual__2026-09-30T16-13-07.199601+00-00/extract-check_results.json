@@ -1,0 +1,1428 @@
+[
+  {
+    "question": "訪客：第 7 步驟提到啟用服務後可以在服務列表的 Pod 列表檢視每個 Pod 的健康狀態，若出現警示狀態要怎麼處理？需要提供什麼資訊給客服中心協助排查？",
+    "response": "客服：若平台服務出現問題且 Pod 顯示為警示狀態，您可以截圖 Pod 名稱並檢附 Log 給客服中心以進行問題排查。您可以在服務詳情中的 Pod 列表依據每個 Pod 的健康狀態，確認功能的運作情形。",
+    "reference": [
+      "Pod列表可以依據每個Pod的健康狀態去確認功能運作情形。若平台服務有問題且Pod顯示警示狀態可截上Pod名稱檢附Log給客服中心進行問題排查。"
+    ],
+    "claims": [
+      [
+        "客服",
+        "提供",
+        "問題排查"
+      ],
+      [
+        "平台服務",
+        "可能出現",
+        "問題"
+      ],
+      [
+        "Pod",
+        "可能顯示為",
+        "警示狀態"
+      ],
+      [
+        "客服中心",
+        "接受",
+        "截圖和Log"
+      ],
+      [
+        "截圖",
+        "包含",
+        "Pod名稱"
+      ],
+      [
+        "Log",
+        "包含",
+        "問題詳情"
+      ],
+      [
+        "服務詳情",
+        "包含",
+        "Pod列表"
+      ],
+      [
+        "Pod列表",
+        "顯示",
+        "每個Pod的健康狀態"
+      ],
+      [
+        "Pod健康狀態",
+        "用於",
+        "確認功能運作情形"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.6666666666666666,
+      "Neutral": 0.3333333333333333,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Neutral",
+      "Neutral",
+      "Entailment",
+      "Neutral",
+      "Entailment",
+      "Entailment"
+    ]
+  },
+  {
+    "question": "訪客：介面設定中提到可以自訂語言、Logo、初始聊天訊息、網站標題與圖示，請問如果我想把介面改成中文並上傳自己的 Logo，具體應該在哪個選項操作？",
+    "response": "客服：您可以在畫面左側區塊右下角點選 🔧 板手按鈕，接著進入「介面自訂」中的「外觀」選項進行設定。在此區塊中，您可以透過下拉式選單將語言選擇為中文，並自訂 Logo、初始聊天訊息以及網站標題與圖示。",
+    "reference": [
+      "🔧->介面自訂->外觀這邊可以自訂偏好的語言、Logo、初始聊天訊息、網站標題及圖示等。",
+      "語言：下拉式選單，可以選擇多國語言，例如：英文、中文、德文等"
+    ],
+    "claims": [
+      [
+        "畫面左側區塊右下角",
+        "有",
+        "🔧 板手按鈕"
+      ],
+      [
+        "🔧 板手按鈕",
+        "用於",
+        "進入介面自訂"
+      ],
+      [
+        "介面自訂",
+        "包含",
+        "外觀選項"
+      ],
+      [
+        "外觀選項",
+        "允許",
+        "設定語言"
+      ],
+      [
+        "語言",
+        "可以選擇",
+        "中文"
+      ],
+      [
+        "外觀選項",
+        "允許",
+        "自訂Logo"
+      ],
+      [
+        "外觀選項",
+        "允許",
+        "自訂初始聊天訊息"
+      ],
+      [
+        "外觀選項",
+        "允許",
+        "自訂網站標題與圖示"
+      ]
+    ],
+    "Y": {
+      "Entailment": 1.0,
+      "Neutral": 0.0,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：在新建立對話時，畫面左上方有「≡」側欄與「新增對話」按鈕，我想了解如果我已經在一個對話中想同時和多個模型交談，需要先在側欄新增對話再切換，還是可以直接在同一視窗內透過「+」加入模型？",
+    "response": "客服：您不需要在側欄新增對話，可以直接在同一個對話視窗內點選「+」按鈕來新增模型。透過此功能，您可以一次新增多個模型並同時與它們聊天，輸入訊息後，畫面會同時輸出各個模型的回答，方便您比較模型之間的差異。此外，若後續需要移除對話內的模型，只要點選「－」按鈕即可隨時操作。",
+    "reference": [
+      "進入 Open WebUI 的首頁畫面後，預設就是可與模型對話畫面，亦可透過畫面左上方`≡`按鈕打開側欄，點選`新增對話`。",
+      "點選「`+`」按鈕新增模型，模型可以做多個新增，一次可跟多個模型聊天"
+    ],
+    "claims": [
+      [
+        "客服",
+        "instructs",
+        "新增模型在同一個對話視窗內"
+      ],
+      [
+        "對話視窗",
+        "has function",
+        "新增模型"
+      ],
+      [
+        "新增模型",
+        "achieved by",
+        "點選「+」按鈕"
+      ],
+      [
+        "點選「+」按鈕",
+        "allows",
+        "新增多個模型"
+      ],
+      [
+        "新增多個模型",
+        "enables",
+        "同時與它們聊天"
+      ],
+      [
+        "輸入訊息",
+        "results in",
+        "各個模型的回答"
+      ],
+      [
+        "各個模型的回答",
+        "displayed",
+        "同時輸出"
+      ],
+      [
+        "同時輸出",
+        "facilitates",
+        "比較模型之間的差異"
+      ],
+      [
+        "移除對話內的模型",
+        "achieved by",
+        "點選「－」按鈕"
+      ],
+      [
+        "點選「－」按鈕",
+        "allows",
+        "隨時操作"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.7,
+      "Neutral": 0.3,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：我在 OpenWebUI 首頁看到左上方有「≡」按鈕，請問點擊它會發生什麼情況，如何透過它進入新增對話的介面？",
+    "response": "客服：點擊畫面左上方的「≡」按鈕可以打開側欄。若您想要進入新增對話的介面，只需在打開側欄後點選「新增對話」即可。進入首頁後，系統預設即為可與模型對話的畫面。",
+    "reference": [
+      "進入 Open WebUI 的首頁畫面後，預設就是可與模型對話畫面，亦可透過畫面左上方`≡`按鈕打開側欄，點選`新增對話`。"
+    ],
+    "claims": [
+      [
+        "點擊畫面左上方的「≡」按鈕",
+        "可以打開",
+        "側欄"
+      ],
+      [
+        "側欄",
+        "可以進入",
+        "新增對話介面"
+      ],
+      [
+        "新增對話介面",
+        "可以進入",
+        "點選「新增對話」"
+      ],
+      [
+        "系統",
+        "預設為",
+        "可與模型對話的畫面"
+      ],
+      [
+        "首頁",
+        "有",
+        "可與模型對話的畫面"
+      ],
+      [
+        "點選「新增對話」",
+        "可以進入",
+        "新增對話介面"
+      ]
+    ],
+    "Y": {
+      "Entailment": 1.0,
+      "Neutral": 0.0,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Entailment"
+    ]
+  },
+  {
+    "question": "訪客：在對話基本設定裡，我想同時與多個模型聊天，請問「+」按鈕的操作步驟是什麼，新增的模型會顯示在哪裡？",
+    "response": "客服：您可以在對話基本設定中點選「+」按鈕來新增模型，且模型可以進行多次新增，讓您一次與多個模型聊天。當您輸入對話後，畫面會同時輸出各個模型的回答，方便您比較模型之間的差異。",
+    "reference": [
+      "點選「`+`」按鈕新增模型，模型可以做多個新增，一次可跟多個模型聊天",
+      "對話輸入後，畫面會同時輸出各模型回答，方便比較模型差異"
+    ],
+    "claims": [
+      [
+        "客服",
+        "提供功能",
+        "新增模型"
+      ],
+      [
+        "對話基本設定",
+        "包含按鈕",
+        "+"
+      ],
+      [
+        "+",
+        "用途",
+        "新增模型"
+      ],
+      [
+        "模型",
+        "可以新增多次",
+        "true"
+      ],
+      [
+        "多次新增模型",
+        "允許",
+        "與多個模型聊天"
+      ],
+      [
+        "輸入對話",
+        "觸發",
+        "各個模型的回答"
+      ],
+      [
+        "各個模型的回答",
+        "會同時輸出",
+        "true"
+      ],
+      [
+        "同時輸出",
+        "方便",
+        "比較模型之間的差異"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.875,
+      "Neutral": 0.125,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：我在閱讀 LiteLLM 使用說明時，看到需要先新增 API Key，請問這把 Key 的用途是什麼？它在 UI 介面和 SwaggerUI 中分別扮演什麼角色？",
+    "response": "客服：這把 API Key 主要用於 API 驗證，且在建立時可以為其指定可使用的模型，單一把 Key 亦可選擇複數個模型。在 UI 介面中，您可以透過點選 Create New Key 並輸入名稱與模型來生成；而在 SwaggerUI 介面中，則可透過 key management 的 POST /key/generate 路徑來產生該 API Key。提醒您 API Key 只會出現一次，請務必複製並妥善保存。",
+    "reference": [
+      "就會產生一把可用於 API 驗證的 API Key，亦可用在 SweggerUI 介面",
+      "先用最高權限 API Key 通過驗證",
+      "key management -> POST /key/generate"
+    ],
+    "claims": [
+      [
+        "API Key",
+        "主要用於",
+        "API 驗證"
+      ],
+      [
+        "API Key",
+        "可以指定",
+        "可使用的模型"
+      ],
+      [
+        "API Key",
+        "可以選擇",
+        "複數個模型"
+      ],
+      [
+        "API Key",
+        "生成方式",
+        "Create New Key"
+      ],
+      [
+        "API Key",
+        "生成方式",
+        "SwaggerUI key management POST /key/generate"
+      ],
+      [
+        "Create New Key",
+        "位於",
+        "UI 介面"
+      ],
+      [
+        "SwaggerUI key management",
+        "位於",
+        "SwaggerUI 介面"
+      ],
+      [
+        "API Key",
+        "保存方式",
+        "複製並妥善保存"
+      ],
+      [
+        "API Key",
+        "特性",
+        "只會出現一次"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.3333333333333333,
+      "Neutral": 0.6666666666666666,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：我在看 RAFT 微調資料生成的操作指南時，發現它可以把我的領域知識轉成可直接微調語言模型的訓練資料，請問這個流程具體會產出哪些檔案，這些檔案各自的用途是什麼？",
+    "response": "客服：此流程會產出一個包含多個檔案的資料夾。其中最核心的 train.jsonl 是可直接用於微調的訓練資料，而 README.md 則提供本次執行的成果說明，包含各階段筆數與捨棄原因。此外，還會產出 summary.json 的機器可讀版本以及紀錄執行參數的 run_meta.json。",
+    "reference": [
+      "執行完成後，結果會自動推回你指定的 Git 專案，路徑為 `datagen-raft/<時間戳>/`：",
+      "train.jsonl        ← 成品：可直接用於微調的訓練資料",
+      "README.md          ← 本次執行的成果說明（各階段筆數、被捨棄的數量與原因、使用的參數）",
+      "summary.json       ← 同樣內容的機器可讀版本",
+      "run_meta.json      ← 各階段起訖時間與可重現執行所需的參數（不含 API Key 與 Git Token）",
+      "intermediate/      ← 中間產物、診斷檔與執行紀錄，一般使用者可忽略"
+    ],
+    "claims": [
+      [
+        "此流程",
+        "會產出",
+        "資料夾"
+      ],
+      [
+        "資料夾",
+        "包含",
+        "多個檔案"
+      ],
+      [
+        "train.jsonl",
+        "是",
+        "訓練資料"
+      ],
+      [
+        "train.jsonl",
+        "可用於",
+        "微調"
+      ],
+      [
+        "README.md",
+        "提供",
+        "成果說明"
+      ],
+      [
+        "README.md",
+        "包含",
+        "各階段筆數與捨棄原因"
+      ],
+      [
+        "summary.json",
+        "是",
+        "機器可讀版本"
+      ],
+      [
+        "run_meta.json",
+        "紀錄",
+        "執行參數"
+      ],
+      [
+        "此流程",
+        "產出",
+        "train.jsonl"
+      ],
+      [
+        "此流程",
+        "產出",
+        "README.md"
+      ],
+      [
+        "此流程",
+        "產出",
+        "summary.json"
+      ],
+      [
+        "此流程",
+        "產出",
+        "run_meta.json"
+      ],
+      [
+        "資料夾",
+        "包含",
+        "train.jsonl"
+      ],
+      [
+        "資料夾",
+        "包含",
+        "README.md"
+      ],
+      [
+        "資料夾",
+        "包含",
+        "summary.json"
+      ],
+      [
+        "資料夾",
+        "包含",
+        "run_meta.json"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.9375,
+      "Neutral": 0.0625,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：請幫我說明在選擇「問答來源模式」時，什麼情況下應該使用 augment、provided 或 chunk 這三種模式，各自的適用條件和限制是什麼？",
+    "response": "客服：選擇模式需視您的資料情況而定。若您有少量人工問答想擴充，請使用 augment 模式；若問答已整理完畢僅需補上出處與推理，請選擇 provided 模式；若手上只有文件而沒有問答，則建議使用 chunk 模式。在 augment 與 provided 模式下，領域文件為必填項，而 chunk 模式則無需填寫領域文件，系統會直接從輸入文件中自動出題。",
+    "reference": [
+      "| 你的情況 | 建議模式 |\n| --- | --- |\n| 有少量人工整理的問答，想擴充成更大的訓練集 | `augment` |\n| 問答已經整理好、數量也夠，只想補上出處與推理 | `provided` |\n| 只有文件，還沒有任何問答 | `chunk` |\n| 希望被捨棄的資料最少 | `chunk`（正解與出題來源天然一致，通過率最高） |",
+      "`augment`＝以種子問答為範例擴增；`provided`＝直接採用種子問答，不再生成新問答（速度最快、也最省用量）；`chunk`＝把文件切段後自動出題，適合手上只有文件、還沒有問答的情況。",
+      "`DEFAULT COUNT` ... `provided` 模式不適用。",
+      "`Q COL` ... `chunk` 模式不適用。",
+      "`chunk` 模式用不到這份文件， **留空即可**——流程內部會自動改用 `INPUT FILE` 本身作為正解出處與干擾文件的來源。",
+      "`provided` 模式不會產生新問答，最終筆數以你提供的種子數量為上限。"
+    ],
+    "claims": [
+      [
+        "客服",
+        "提供",
+        "模式選擇指南"
+      ],
+      [
+        "模式選擇",
+        "依據",
+        "資料情況"
+      ],
+      [
+        "augment 模式",
+        "適用於",
+        "少量人工問答擴充"
+      ],
+      [
+        "augment 模式",
+        "需要",
+        "領域文件"
+      ],
+      [
+        "provided 模式",
+        "適用於",
+        "問答已整理完畢"
+      ],
+      [
+        "provided 模式",
+        "需要",
+        "領域文件"
+      ],
+      [
+        "chunk 模式",
+        "適用於",
+        "只有文件無問答"
+      ],
+      [
+        "chunk 模式",
+        "不需要",
+        "領域文件"
+      ],
+      [
+        "chunk 模式",
+        "特點",
+        "系統自動出題"
+      ],
+      [
+        "領域文件",
+        "是",
+        "augment 模式的必填項"
+      ],
+      [
+        "領域文件",
+        "是",
+        "provided 模式的必填項"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.7272727272727273,
+      "Neutral": 0.18181818181818182,
+      "Contradiction": 0.09090909090909091,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Contradiction",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：我想瞭解 RAFT 服務的適用情境，文件裡提到如果手上有領域文件或已有少量問答都可以使用，請問這些情境下 RAFT 能解決什麼問題，尤其是在模型能引用出處方面有什麼優勢？",
+    "response": "客服：RAFT 服務能將您的領域知識轉換為模型訓練資料，解決模型憑印象作答或在無答案文件時硬掰的問題。其優勢在於訓練模型學會在一堆文件中找出正確依據並有根據地作答，而非單純背誦答案。在引用出處方面，它會為樣本配上正解出處、干擾文件與推理過程，讓模型學會依據指定文件作答並指出出處。",
+    "reference": [
+      "手上有領域文件（法規、手冊、內部規範），想讓模型學會依據這些文件回答問題",
+      "已有少量人工整理的問答，想以它們為範例擴增出更多同類問答",
+      "希望模型回答時能 **引用出處**、而不是憑印象作答",
+      "想降低模型在沒有答案的文件中硬掰的機率",
+      "用這種資料微調出來的模型，學到的是「在一堆文件裡找出正確依據、再有根據地作答」，而不是把答案背起來"
+    ],
+    "claims": [
+      [
+        "RAFT 服務",
+        "能將",
+        "領域知識轉換為模型訓練資料"
+      ],
+      [
+        "RAFT 服務",
+        "解決",
+        "模型憑印象作答的問題"
+      ],
+      [
+        "RAFT 服務",
+        "解決",
+        "模型在無答案文件時硬掰的問題"
+      ],
+      [
+        "RAFT 服務",
+        "優勢在於",
+        "訓練模型學會在文件中找出正確依據"
+      ],
+      [
+        "RAFT 服務",
+        "優勢在於",
+        "訓練模型學會有根據地作答"
+      ],
+      [
+        "模型",
+        "學會",
+        "在文件中找出正確依據"
+      ],
+      [
+        "模型",
+        "學會",
+        "有根據地作答"
+      ],
+      [
+        "樣本",
+        "配上",
+        "正解出處"
+      ],
+      [
+        "樣本",
+        "配上",
+        "干擾文件"
+      ],
+      [
+        "樣本",
+        "配上",
+        "推理過程"
+      ],
+      [
+        "模型",
+        "學會",
+        "依據指定文件作答"
+      ],
+      [
+        "模型",
+        "學會",
+        "指出出處"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.5833333333333334,
+      "Neutral": 0.4166666666666667,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：我在閱讀 API 金鑰申請服務的說明時，看到提到這是一個與 OpenAI 相容的多模型 API 服務，請問這個服務主要提供哪些功能與使用情境？",
+    "response": "客服：這項多模型 API 服務允許使用者透過 Lightweight Portal 訪問平台上的多種模型。在功能方面，使用者可以查看在 iService 上擁有的計畫及其餘額狀態，並能針對每個計畫進行 API 入口金鑰的管理，包含生成新金鑰、修改設定或查看金鑰狀況，以確保訪問權限的安全與便利。",
+    "reference": [
+      "多模型API服務是一個與 OpenAI 相容的 API 服務，允許使用者透過`Lightweight Portal`訪問 多模型API服務 上的多種模型。",
+      "在 Lightweight Portal 上，使用者可以查看 iService 上已擁有的計畫，包含每個計畫的使用餘額。每個計畫中提供 API入口 金鑰的管理功能，使用者可以在此新增、修改或查看 API入口 金鑰的狀況，以確保訪問權限的安全性和便利性。",
+      "- **查看計畫**：登入 Lightweight Portal 後，可以清楚查看自己在 iService 上擁有的計畫及各計畫的餘額狀態。",
+      "- **API入口 金鑰管理**：每個計畫中提供 API入口 金鑰的管理功能，用戶可以生成新的 API入口 金鑰、修改現有的金鑰設定，或查看 API入口 金鑰的狀況，以便於管理和使用。"
+    ],
+    "claims": [
+      [
+        "多模型 API 服務",
+        "允許使用者透過",
+        "Lightweight Portal"
+      ],
+      [
+        "多模型 API 服務",
+        "提供",
+        "訪問平台上的多種模型"
+      ],
+      [
+        "使用者",
+        "可以查看",
+        "在 iService 上擁有的計畫"
+      ],
+      [
+        "使用者",
+        "可以查看",
+        "計畫的餘額狀態"
+      ],
+      [
+        "使用者",
+        "可以管理",
+        "API 入口金鑰"
+      ],
+      [
+        "API 入口金鑰",
+        "可以",
+        "生成新金鑰"
+      ],
+      [
+        "API 入口金鑰",
+        "可以",
+        "修改設定"
+      ],
+      [
+        "API 入口金鑰",
+        "可以",
+        "查看金鑰狀況"
+      ],
+      [
+        "多模型 API 服務",
+        "確保",
+        "訪問權限的安全與便利"
+      ],
+      [
+        "iService",
+        "提供",
+        "計畫及其餘額狀態"
+      ],
+      [
+        "Lightweight Portal",
+        "是",
+        "訪問平台的入口"
+      ]
+    ],
+    "Y": {
+      "Entailment": 1.0,
+      "Neutral": 0.0,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：在 Lightweight Portal 上，我可以看到每個計畫的使用餘額與 API 金鑰列表，請問這個 Portal 的主要目的與我可以在裡面完成哪些管理動作？",
+    "response": "客服：Lightweight Portal 的主要目的是讓使用者能訪問多模型 API 服務，並在其中查看在 iService 上擁有的計畫及其使用餘額。您可以在此完成 API 入口金鑰的管理動作，包括生成新的金鑰、修改現有金鑰設定或查看金鑰狀況。此外，您也可以在新建立的金鑰中設定預算限制與有效時間，以確保訪問權限的安全性和便利性。",
+    "reference": [
+      "在 Lightweight Portal 上，使用者可以查看 iService 上已擁有的計畫，包含每個計畫的使用餘額。每個計畫中提供 API入口 金鑰的管理功能，使用者可以在此新增、修改或查看 API入口 金鑰的狀況，以確保訪問權限的安全性和便利性。",
+      "多模型API服務是一個與 OpenAI 相容的 API 服務，允許使用者透過`Lightweight Portal`訪問 多模型API服務 上的多種模型。",
+      "每個計畫中提供 API入口 金鑰的管理功能，用戶可以生成新的 API入口 金鑰、修改現有的金鑰設定，或查看 API入口 金鑰的狀況，以便於管理和使用。"
+    ],
+    "claims": [
+      [
+        "Lightweight Portal",
+        "主要目的是",
+        "讓使用者能訪問多模型 API 服務"
+      ],
+      [
+        "Lightweight Portal",
+        "允許使用者查看",
+        "在 iService 上擁有的計畫及其使用餘額"
+      ],
+      [
+        "Lightweight Portal",
+        "提供",
+        "API 入口金鑰的管理動作"
+      ],
+      [
+        "API 入口金鑰的管理動作",
+        "包括",
+        "生成新的金鑰"
+      ],
+      [
+        "API 入口金鑰的管理動作",
+        "包括",
+        "修改現有金鑰設定"
+      ],
+      [
+        "API 入口金鑰的管理動作",
+        "包括",
+        "查看金鑰狀況"
+      ],
+      [
+        "新建立的金鑰",
+        "可以設定",
+        "預算限制"
+      ],
+      [
+        "新建立的金鑰",
+        "可以設定",
+        "有效時間"
+      ],
+      [
+        "預算限制和有效時間",
+        "用於確保",
+        "訪問權限的安全性和便利性"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.7777777777777778,
+      "Neutral": 0.2222222222222222,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      [
+        "Entailment",
+        "Entailment",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Entailment"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Neutral",
+        "Neutral",
+        "Neutral"
+      ],
+      [
+        "Entailment",
+        "Neutral",
+        "Neutral"
+      ]
+    ]
+  },
+  {
+    "question": "訪客：關於建立 API 金鑰的流程，文件說要先選擇計畫再前往 API 入口建立，請問在金鑰名稱與模型選擇之後，還可以設定哪些進階選項，例如預算或有效時間？",
+    "response": "客服：在填寫金鑰名稱與選擇模型之後，您可以在下方的進階設定中設定預算限制，以及設定金鑰的有效時間。設定完成後按下儲存即可建立金鑰，請記得妥善保存您的金鑰。您後續也可以在 API 入口查看該金鑰的詳情與模型資訊。",
+    "reference": [
+      "若有預算限制可在下方進階設定中做設定，也可設定金鑰的有效時間"
+    ],
+    "claims": [
+      [
+        "金鑰",
+        "有",
+        "名稱"
+      ],
+      [
+        "金鑰",
+        "需要",
+        "模型"
+      ],
+      [
+        "使用者",
+        "可以",
+        "設定預算限制"
+      ],
+      [
+        "使用者",
+        "可以",
+        "設定金鑰的有效時間"
+      ],
+      [
+        "預算限制",
+        "在",
+        "進階設定中設定"
+      ],
+      [
+        "金鑰的有效時間",
+        "在",
+        "進階設定中設定"
+      ],
+      [
+        "金鑰",
+        "可以",
+        "儲存"
+      ],
+      [
+        "儲存",
+        "後",
+        "建立金鑰"
+      ],
+      [
+        "使用者",
+        "應該",
+        "保存金鑰"
+      ],
+      [
+        "API 入口",
+        "可以",
+        "查看金鑰詳情"
+      ],
+      [
+        "API 入口",
+        "可以",
+        "查看模型資訊"
+      ],
+      [
+        "金鑰詳情",
+        "在",
+        "API 入口查看"
+      ],
+      [
+        "模型資訊",
+        "在",
+        "API 入口查看"
+      ]
+    ],
+    "Y": {
+      "Entailment": 0.38461538461538464,
+      "Neutral": 0.6153846153846154,
+      "Contradiction": 0.0,
+      "Abstain": 0.0
+    },
+    "ys": [
+      "Neutral",
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Entailment",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral"
+    ]
+  }
+]
